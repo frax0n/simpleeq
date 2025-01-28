@@ -1,0 +1,17 @@
+# Ignore build directories
+Builds/VisualStudio2022/x64/Debug/
+Builds/VisualStudio2022/x64/Release/
+dist/
+debug/
+
+# Ignore macOS files
+.DS_Store
+
+# Ignore Visual Studio files
+*.exe
+*.pdb
+*.vcxproj.*
+.vs/
+*.vsix
+.ilk
+.lib
